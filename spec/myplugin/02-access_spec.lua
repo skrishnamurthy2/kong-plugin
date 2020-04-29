@@ -1,6 +1,6 @@
 local helpers = require "spec.helpers"
 
-local PLUGIN_NAME = "myplugin"
+local PLUGIN_NAME = "sritestplugin"
 
 local fixtures = {
   http_mock = {
