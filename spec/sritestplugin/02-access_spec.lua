@@ -55,7 +55,7 @@ for _, strategy in helpers.each_strategy() do
         host = "europe-cluster"
       }
 
-      local route1 = bp.routes:insert({
+      bp.routes:insert({
         paths = { "/local" },
         service = service
       })
